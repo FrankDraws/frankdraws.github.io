@@ -14,7 +14,7 @@ body {
 #container {
     display: flex;
     flex-direction: column;
-    margin: 3em;
+    margin: 1em;
 }
 
 h1 {
@@ -22,6 +22,8 @@ h1 {
     font-size: 1.7em;
     line-height: 1.em;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
     /* display: block; */
 }
 
@@ -30,6 +32,8 @@ h2 {
     font-size: 1em;
     line-height: 1.5;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
     /* display: block; */
 }
 
@@ -65,25 +69,28 @@ hr:before {
 }
 
 @media only screen and (min-width: 600px) {
+    #container {
+        margin: 2em;
+    }
     h1 {
         font-size: 2.3em;
     }
     h2 {
         font-size: 1.3em;
-        max-width: 50%;
+        max-width: 60%;
     }
     .about {
         font-size: 1.125em;
-        max-width: 50%;
+        max-width: 60%;
     }
     #divider:before {
         width: 10%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 768px) {
     #container {
-        margin: 1em;
+        margin: 3em;
     }
 }
 
@@ -95,12 +102,3 @@ hr:before {
         width: 7%;
     }
 }
-
-/* @media only screen and (min-width: 1440px) {
-    h2, .about {
-        max-width: 40%;
-    }
-    #divider:before {
-        width: 7%;
-    }
-} */
