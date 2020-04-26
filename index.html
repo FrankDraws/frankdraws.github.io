@@ -11,9 +11,9 @@
         rel="stylesheet" type="text/css"> -->
 
     <!-- <link rel="stylesheet" href="style.css"> -->
-    <link
+    <!-- <link
         href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display:wght@700;900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"> -->
 
 
 
@@ -28,9 +28,49 @@
 
         body {
             color: #c3c3c3;
-            border-top: 12px solid #FFCE00;
+            /* border-top: 12px solid #FFCE00; */
             background-color: #000;
         }
+
+
+        #colortop {
+            width: 100vw;
+            height: 12px;
+            -webkit-animation: color-change-3x 6s linear infinite alternate both;
+            animation: color-change-3x 6s linear infinite alternate both;
+        }
+
+
+        @-webkit-keyframes color-change-3x {
+            0% {
+                background: #03001E;
+            }
+
+            50% {
+                background: #7303C0;
+            }
+
+            100% {
+                background: #EC38BC;
+            }
+
+        }
+
+        @keyframes color-change-3x {
+            0% {
+                background: #03001E;
+            }
+
+            50% {
+                background: #7303C0;
+            }
+
+            100% {
+                background: #EC38BC;
+            }
+
+        }
+
 
         #container {
             display: flex;
@@ -153,6 +193,7 @@
 </head>
 
 <body>
+    <div id="colortop"></div>
     <div id="container">
         <h1>Frank Juval Quinones</h1>
         <hr id="divider">
@@ -174,5 +215,15 @@
 
 
 </body>
+<!-- #colortop {
+        width: 100vw;
+        height: 12px;
+        background: #EC38BC;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(45deg, #03001E, #7303C0, #EC38BC);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(45deg, #03001E, #7303C0, #EC38BC);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        } -->
 
 </html>
