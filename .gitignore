@@ -61,4 +61,4 @@ Thumbs.d
 *
 !.gitignore
 # !directoryName/
-~/.bash_profile
+~/.zprofile
