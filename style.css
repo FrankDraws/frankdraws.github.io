@@ -19,11 +19,6 @@ body{
     padding: 0;
 
     color: #ffffff;
-    
-    /* background-size: 53px 53px; */
-    /* background-image: linear-gradient(283deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 30%, rgba(130, 130, 130, 0.04) 30%, rgba(130, 130, 130, 0.04) 49%, rgba(31, 31, 31, 0.04) 49%, rgba(31, 31, 31, 0.04) 100%), linear-gradient(297deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 20%, rgba(130, 130, 130, 0.04) 20%, rgba(130, 130, 130, 0.04) 60%, rgba(31, 31, 31, 0.04) 60%, rgba(31, 31, 31, 0.04) 100%), linear-gradient(242deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 29%, rgba(130, 130, 130, 0.04) 29%, rgba(130, 130, 130, 0.04) 48%, rgba(31, 31, 31, 0.04) 48%, rgba(31, 31, 31, 0.04) 100%), linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0)); */
-    /* background-image: linear-gradient(135deg, rgba(98, 138, 224, 0.46) 0%, rgba(98, 138, 224, 0.46) 14.286%, rgba(107, 116, 201, 0.46) 14.286%, rgba(107, 116, 201, 0.46) 28.572%, rgba(115, 94, 178, 0.46) 28.572%, rgba(115, 94, 178, 0.46) 42.858%, rgba(124, 73, 156, 0.46) 42.858%, rgba(124, 73, 156, 0.46) 57.144%, rgba(133, 51, 133, 0.46) 57.144%, rgba(133, 51, 133, 0.46) 71.43%, rgba(141, 29, 110, 0.46) 71.43%, rgba(141, 29, 110, 0.46) 85.716%, rgba(150, 7, 87, 0.46) 85.716%, rgba(150, 7, 87, 0.46) 100.002%), linear-gradient(45deg, rgb(60, 13, 119) 0%, rgb(60, 13, 119) 14.286%, rgb(50, 25, 138) 14.286%, rgb(50, 25, 138) 28.572%, rgb(41, 36, 156) 28.572%, rgb(41, 36, 156) 42.858%, rgb(31, 48, 175) 42.858%, rgb(31, 48, 175) 57.144%, rgb(21, 59, 194) 57.144%, rgb(21, 59, 194) 71.43%, rgb(12, 71, 212) 71.43%, rgb(12, 71, 212) 85.716%, rgb(2, 82, 231) 85.716%, rgb(2, 82, 231) 100.002%); */
-
 }
 
 #colortop {
@@ -132,7 +127,6 @@ hr:before {
     align-items: center;
     margin-top: 1em;
     margin-bottom: 4em;
-    /* width: 70vw; */
 }
 
 @media only screen and (min-width: 600px) {
@@ -178,16 +172,12 @@ hr:before {
         content: attr(data-title);
         background-color: #00FF00;
         color: #333;
-        /* font-size: 150%; */
         position: absolute;
         padding: 0.2em;
         top: -2.3em;
-        /* left: 100%; */
         left: -0.2em;
         white-space: nowrap;
-        /* box-shadow: 1px 1px 3px #222222; */
         opacity: 0;
-        /* border: 1px solid #111111; */
         border-radius: 3px;
         z-index: 99999;
         visibility: hidden;
