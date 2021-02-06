@@ -31,7 +31,7 @@ body{
 
 @-webkit-keyframes color-change-3x {
     0% {
-        background: #1DBDE6;
+        background: #ff930f;
     }
 
     50% {
@@ -39,14 +39,14 @@ body{
     }
 
     100% {
-        background: #EC38BC;
+        background: #00ff87;
     }
 
 }
 
 @keyframes color-change-3x {
     0% {
-        background: #1DBDE6;
+        background: #ff930f;
         /*#03001E*/
     }
 
@@ -55,7 +55,7 @@ body{
     }
 
     100% {
-        background: #EC38BC;
+        background: #00ff87;
     }
 
 }
