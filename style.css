@@ -73,26 +73,41 @@ a:visted {
 
 h1 {
     font-family: 'Playfair Display', serif;
-    /* font-size: 1.7em; */
     font-size: 10vmin;
-    line-height: 1.em;
+    line-height: 1em;
     font-weight: 900;
     margin: 0;
     padding: 0;
 }
 
+/* h1 {
+	background-image: url(https://media.giphy.com/media/4bhs1boql4XVJgmm4H/giphy-downsized.gif);
+	background-size: cover;
+    background-position: center center;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	font-size: 10vmin;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+} */
+
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
+    font-size: 3vmax;
     line-height: 1.5;
     font-weight: 700;
     margin: 0;
     padding: 0;
+    width: 90vw;
+    
 }
 
 .about {
     font-family: 'Lora', serif;
-    font-size: 1em;
+    font-size: 5vmin;
     line-height: 1.5;
     font-weight: 400;
 }
@@ -134,14 +149,14 @@ hr:before {
         margin: 2em;
     }
 
-    h2 {
+    /* h2 {
         font-size: 1.3em;
         max-width: 60%;
-    }
+    } */
 
     .about {
-        font-size: 1.125em;
-        max-width: 60%;
+        /* font-size: 3vmin; */
+        
     }
 
     #divider:before {
@@ -156,6 +171,12 @@ hr:before {
 @media only screen and (min-width: 768px) {
     #container {
         margin: 3em;
+    }
+    h2 {
+        width: 70vw;
+    }
+    .about {
+        width: 60vw;
     }
 
     [data-title]:hover:after {
@@ -189,13 +210,13 @@ hr:before {
 }
 
 @media only screen and (min-width: 1024px) {
-    h2 {
+    /* h2 {
         font-size: 1.8em;
-    }
+    } */
 
-    h2,
+    /* h2, */
     .about {
-        max-width: 50%;
+        /* max-width: 50%; */
     }
 
     .about {
@@ -215,10 +236,10 @@ hr:before {
 
     
     
-    h2,
+    /* h2,
     .about {
         width: 40%;
-    }
+    } */
 
     #social {
         width: 35vw;
