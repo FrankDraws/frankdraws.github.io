@@ -1,6 +1,6 @@
 html, body {
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    /* height: 100vh; */
 }
 html {
     background: hsla(280, 84%, 41%, 1);
@@ -18,6 +18,7 @@ body{
     margin: 0;
     padding: 0;
     color: #ffffff;
+    width: 100vw;
 }
 
 #colortop {
@@ -64,6 +65,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 1em;
+    height: 100%;
 }
 
 a,
@@ -110,6 +112,8 @@ h2 {
     font-size: 5vmin;
     line-height: 1.5;
     font-weight: 400;
+    animation: all ease-in-out;
+    width: 100%;
 }
 
 hr {
@@ -156,6 +160,7 @@ hr:before {
 
     .about {
         /* font-size: 3vmin; */
+        width: 80%;
         
     }
 
@@ -233,9 +238,6 @@ hr:before {
 }
 
 @media only screen and (min-width: 1440px) {
-
-    
-    
     /* h2,
     .about {
         width: 40%;
