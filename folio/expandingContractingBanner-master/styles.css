@@ -1,0 +1,103 @@
+/*
+    Author: Frank J. Quinones
+    Site: http://frankdraws.github.io
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* font-family: "Helvetica", sans-serif;
+    font-size: calc(16px + 0.4vw);
+    line-height: calc(1.1em + 0.5vw); */
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(116, 216, 252), rgb(156, 153, 254));
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0.4em 0 0;
+    padding: 0 0 0.7em;
+    display: block;
+    font-family: "Helvetica", sans-serif;
+    font-size: calc(16px + 0.2vw);
+}
+
+p {
+    margin: 0;
+    padding: 0 0 0;
+    opacity: 0;
+    width: 60vw;
+    font-family: "Georgia", serif;
+    font-weight: 400;
+    font-size: calc(12px + 0.4vw);
+    line-height: calc(1.3em + 0.5vw);
+    transition: opacity 0.15s ease-in-out;
+}
+
+.item {
+    border-radius: 1em 1em 0 0;
+    background-color: #162B75;
+    width: 60vw;
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    transition: width 0.2s ease, height 0.2s ease-out;
+    cursor: pointer;
+}
+
+.expand {
+    border-radius: 0;
+    width: 100vw;
+    height: 200px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#banner {
+    background-color: #162B75;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    outline-style: none;
+}
+
+.ep {
+    opacity: 100;
+    width: 60vw;
+    font-weight: normal;
+    transition: opacity 0.4s ease-out 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+    .item {
+        width: 30vw;
+    }
+    .expand {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    p {
+        padding: 0.4em 0 0;
+    }
+}
