@@ -1,7 +1,7 @@
 /*
   Author: Frank Juval Quinones
   URL: https://www.frankjuval.com
-
+  Date: March 27, 2021
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700;900&display=swap");
@@ -88,12 +88,6 @@ h4 {
 
 p {
   max-width: 60ch;
-}
-
-li {
-  font-size: clamp( var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
-  list-style: disc;
-  margin: 0 2em 0;
 }
 
 a,
