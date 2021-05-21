@@ -1,0 +1,13 @@
+{
+    "name": "FrankJuval.com",
+    "description": "Home Page Consulting Site",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FrankDraws/frankjuval.git"
+    },
+    "keywords": [],
+    "author": "Frank J. Quinones",
+    "license": "ISC",
+    "homepage": "https://www.frankjuval.com"
+}
