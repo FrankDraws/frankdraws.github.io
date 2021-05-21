@@ -1,7 +1,9 @@
 /*
   Author: Frank Juval Quinones
   URL: https://www.frankjuval.com
-  Date: March 27, 2021
+  Updated: May 2021
+  Github: http://
+  Instagram: http://instagram.com/frankjuval
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700;900&display=swap");
@@ -13,17 +15,10 @@
   height: 12px;
   -webkit-animation: color-change-2x 3s linear infinite alternate both;
   animation: color-change-2x 3s linear infinite alternate both;
+  position: fixed;
+  top: 0;
 }
 
-/*
-  Author: Frank Juval Quinones
-  URL: https://www.frankjuval.com
-  Date: March 27, 2021
-*/
-
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display+SC:wght@700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:wght@400;500;600&family=Playfair+Display+SC:wght@700;900&display=swap");
 body,
 html {
   width: 100%;
@@ -105,15 +100,16 @@ h1 {
   }
 }
 
-.col-02 {
-  color: steelblue;
-}
-
-p {
+p,
+article {
   padding: 0 1em 0;
+  margin: 0 0 1.4em;
   font: 1em/1.5 "Georgia", sans-serif;
 }
 
+/*
+  / / / / ANIMATIONS  
+*/
 @keyframes fadein {
   from {
     opacity: 0;
