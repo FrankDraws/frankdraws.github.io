@@ -10,12 +10,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Playfair+Display+SC:wght@700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lora:wght@400;500;600&family=Playfair+Display+SC:wght@700;900&display=swap"); */
 
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  color: #4c5c68;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+
 #colortop {
   width: 100%;
   height: 12px;
   -webkit-animation: color-change-2x 3s linear infinite alternate both;
   animation: color-change-2x 3s linear infinite alternate both;
-  margin: 0 0 1em;
+  /* margin: 0 0 2em;
+  position: fixed;
+  top: 0; */
 }
 
 hr {
@@ -34,18 +49,19 @@ hr {
 .ush {
   text-decoration: none;
   background-color: #f4f3ee;
-  color: #8a817c;
+  color: #4c5c68;
   transition: all 0.4s ease 0s;
   padding: 0 0.4em 0;
 }
 .astyle01:hover {
   text-decoration: none;
-  background-color: #e7bc91;
-  color: #250902;
+  background-color: #d4b599;
+  color: #322720;
   transition: all 0.6s ease 0s;
 }
 strong {
-  color: #555;
+  color: #46494c;
+  /* font-weight: 600; */
 }
 
 .uor:hover,
@@ -67,22 +83,12 @@ strong {
   color: #eb5e28;
   /* transition: all 0.4s ease 0s; */
 }
-body,
-html {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: gainsboro;
-}
-body {
-  font-family: "Playfair Display", serif;
-}
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   animation: fadein 3.3s;
+  margin-top: 1.5em;
 }
 @media only screen and (max-width: 295px) {
   .container {
@@ -126,7 +132,6 @@ h1 {
 }
 
 .col {
-  color: grey;
   grid-template-columns: 1fr 1fr;
   opacity: 1;
   animation: fadeback 2.5s;
