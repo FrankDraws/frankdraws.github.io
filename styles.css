@@ -41,38 +41,26 @@ body {
   height: 12px;
   -webkit-animation: color-change-2x 3s linear infinite alternate both;
   animation: color-change-2x 3s linear infinite alternate both;
-  /* margin: 0 0 2em;
-  position: fixed;
-  top: 0; */
 }
 
 hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient( to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  /* margin: 2em 0 2em; */
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  column-gap: 1em;
   animation: fadein 3.3s;
   margin-top: 1.5em;
-}
-
-.col-03 {
-  color: dodgerblue;
 }
 
 h1 {
   color: #5a189a;
   font-size: 2.1em;
   font-weight: 900;
-  line-height: 1.3;
-  padding-left: 0.3em;
-  margin: 0 0 0.4em;
   animation: fadeback 1.7s;
+  line-height: 1;
+  margin: 0 0 0.7em 0.5em;
 }
 
 .col {
@@ -105,44 +93,64 @@ footer p {
   / / / / MEDIA QUERIES  
 */
 
-@media only screen and (min-width: 1024px) {
-  .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  h1 {
-    text-align: right;
-  }
-}
-
 @media only screen and (min-width: 667px) {
   h1 {
     font-size: 2.5em;
     animation: fadein 1.7s;
-    margin-bottom: 0.4em;
+    line-height: 1;
+    margin: 0 0 0.4em 0.4em;
   }
   footer p {
     text-align: right;
   }
-}
-
-@media only screen and (min-width: 1024px) {
-  h1 {
-    animation: fadein 1.7s;
-    font-size: 3.5em;
-    line-height: 1;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
   }
-}
-
-@media only screen and (max-width: 667px) {
-  .col {
-    opacity: 1;
-    transition: opacity 0.25s ease-in-out;
+  .col:first-child {
+    grid-row-start: 1;
+    grid-column: 1 / 3;
+  }
+  .col-02,
+  .col-03 {
+    grid-row-start: 2;
   }
 }
 
 @media only screen and (max-width: 668px) {
   .col {
     animation: fadein 1.7s;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0;
+  }
+  .col {
+    animation: fadein 1.7s;
+  }
+  .col:first-child {
+    grid-row-start: 0;
+    grid-column: 1 / 1;
+  }
+  .col-02 {
+    grid-column-start: 2;
+  }
+  .col-03 {
+    grid-column-start: 03;
+  }
+  h1 {
+    text-align: right;
+    animation: fadein 1.7s;
+    font-size: 3.5em;
+    line-height: 1.3;
+    margin: 0.2em 0 0.4em;
   }
 }
 
@@ -170,7 +178,6 @@ footer p {
 
 strong {
   color: #46494c;
-  /* font-weight: 600; */
 }
 
 .uor:hover,
@@ -185,14 +192,12 @@ strong {
   text-decoration: none;
   color: #6a8532;
   border-bottom: 1px solid #6a8532;
-  /* transition: all 0.2s ease 0; */
 }
 
 .astyle02:hover {
   text-decoration: none;
   border-bottom: 2px solid #eb5e28;
   color: #eb5e28;
-  /* transition: all 0.4s ease 0s; */
 }
 
 
