@@ -66,6 +66,7 @@ h1 {
 ul {
   text-align: left;
   padding: 0;
+  margin: -1em 0 1em 0;
 }
 
 li {
@@ -115,7 +116,10 @@ footer p {
     font-size: 2.5em;
     animation: fadein 1.7s;
     line-height: 1;
-    margin: 0 0 0.4em 0.4em;
+    margin: 0 0 0.7em 0.4em;
+  }
+  ul {
+    margin-bottom: 0.3em;
   }
   .col:first-child {
     grid-row-start: 1;
@@ -215,6 +219,48 @@ strong {
   text-decoration: none;
   border-bottom: 2px solid #eb5e28;
   color: #eb5e28;
+}
+
+
+/* / / Buzz Link Styles */
+
+.buzz {
+  display: inline-block;
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  transition: all 250ms ease;
+  transform: translatez(0);
+  perspective: 50px;
+}
+
+.buzz:before,
+.buzz:after {
+  content: attr( data-buzz);
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  transition: all 150ms ease;
+}
+
+.buzz:before {
+  color: #00d5ff;
+  top: 2px;
+  left: 2px;
+}
+
+.buzz:after {
+  color: #ffaa00;
+  bottom: 2px;
+  right: 2px;
+}
+
+.buzz:hover:before {
+  transform: rotatex(-15deg) rotatey(5deg) scale(1.25);
+}
+
+.buzz:hover:after {
+  transform: rotatey(-5deg) rotatex(15deg) scale(1.25);
 }
 
 
