@@ -1,0 +1,328 @@
+/*
+popover custom
+http://getbootstrap.com/customize/?id=bd335a06bb013087e7f5
+
+*/
+
+
+
+/* ========= Global ========= */
+body,html {
+	background-color:#000;
+}
+
+.header {
+	padding:20px 0;
+}
+/* ========= Nav Bar ========= */
+.navbar-inverse {
+	display:block;
+}
+
+.navbar {
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	z-index:50000;
+}
+
+.navbar-nav a:hover {
+	color:red;
+}
+/* ========= Centered Nav Links ========= */
+.navbar .nav li {
+	width:auto;
+	display:inline-block;
+	float:none;
+}
+
+.navbar .nav {
+	float:none;
+	text-align:center;
+}
+
+.video-style {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+	z-index: -999999
+}
+
+.carousel-inner {
+	background-color:#000;
+/* Color that shows up below video */
+	position:relative;
+}
+
+
+
+
+/* ========= VIDEO CONTENT OVERLAYS ========= */
+.item {
+	width: 100%;
+	x-outline: 1px solid yellow;
+	z-index: 0;
+	position: relative;
+}
+.TWD-overlay, .carousel-caption {
+	position: absolute;
+	width: 400px;
+	height: auto;
+	outline: 1px solid red;
+	top:20rem;
+	right: 20%;
+	text-align: left;
+}
+h1 {
+	margin:0;
+	padding: 0;
+}
+/*
+.twd-caption {
+	text-align:left;
+	padding:0;
+	outline:1px solid orange;
+}
+*/
+/*
+ {
+	text-align:left;
+	position:absolute;
+	top:170px;
+	right: 0;
+	width:auto;
+	height:100%;
+	padding:0;
+	x-margin-left:10px;
+	outline:1px solid yellow;
+}
+*/
+.twd-type-mask {
+	font-size:5rem;
+	font-weight:700;
+	font-family:Oswald,Helvetica,sans-serif;
+	text-transform:uppercase;
+	color:#d6d4c1;
+	-webkit-mask-image:url(https://dl.dropboxusercontent.com/u/378233/hhn/distressed.png);
+	-moz-mask-image:url(https://dl.dropboxusercontent.com/u/378233/hhn/distressed.png);
+	-o-mask-image:url(https://dl.dropboxusercontent.com/u/378233/distressed.png);
+	mask-image:url(https://dl.dropboxusercontent.com/u/378233/hhn/distressed.png);
+	
+}
+.ttc-one {
+	top:40%; left:20%; padding:5px 10px; background-color:transparent; color:#8d8f87; display:inline-block; border:2px solid #8d8f87;
+}
+.TWD-overlay span {
+	font-family: Oswald, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 1em;
+	color: #d6d4c1;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
+/* ========= SURVIVAL TIPS (POPOVERS) ========= */
+.popover, .popover-title {
+	background-color: rgba(0,0,0,.8);
+	border-radius: 4;
+	border: 1px solid #252525;
+	color: #ccc;
+	
+}
+.popover-title {
+	border: none;
+	outline: none;
+}
+
+
+
+.popover > .arrow,
+.popover > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  
+}
+.popover > .arrow {
+  border-width: 11px;
+  
+}
+.popover > .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+.popover.top > .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #252525;
+  border-top-color: rgba(0, 0, 0, 0.8);
+  bottom: -11px;
+}
+.popover.top > .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #252525;
+}
+.popover.right > .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #252525;
+  border-right-color: rgba(0, 0, 0, 0.8);
+}
+.popover.right > .arrow:after {
+  content: " ";
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #252525;
+}
+.popover.bottom > .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #252525;
+  x-border-bottom-color: rgba(0, 0, 0, 0.8);
+  top: -11px;
+}
+.popover.bottom > .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: rgba(0, 0, 0, 0.8);
+}
+.popover.left > .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #252525;
+  border-left-color: rgba(0, 0, 0, 0.8);
+}
+.popover.left > .arrow:after {
+  content: " ";
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #000000;
+  bottom: -10px;
+}
+
+
+
+
+
+/* ========= Slider ========= */
+.container--head {
+	z-index:-999999;
+	padding:0;
+	margin-top:-25px;
+}
+
+.tooltip-carousel {
+	position:absolute;
+	z-index:11;
+	border-radius:50%;
+}
+
+.caraousel-tooltip-item {
+	display:none;
+}
+
+.caraousel-tooltip-item.active {
+	display:block;
+	background: yell
+}
+
+.header img {
+	display:block;
+	margin:auto;
+}
+
+.carousel {
+	width:80%;
+	margin:auto;
+}
+
+.carousel-control {
+	width: 1020px;
+
+}
+
+
+
+
+
+/* =========== TRANSITIONS =========== */
+.carousel.c-fade .item {
+	-webkit-transition:opacity 1s ease-in-out;
+	-moz-transition:opacity 1s ease-in-out;
+	-ms-transition:opacity 1s ease-in-out;
+	-o-transition:opacity 1s ease-in-out;
+	transition:opacity 1s ease-in-out;
+}
+
+.carousel.c-fade .active.left,.carousel.c-fade .active.right {
+	left:0;
+	z-index:2;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+.carousel.c-fade .next,.carousel.c-fade .prev {
+	left:0;
+	z-index:1;
+}
+
+.carousel.c-fade .carousel-control {
+	z-index:3;
+}
+
+
+
+
+
+/* ========= Captions ========= */
+.carousel-inner {
+	width:100%;
+	margin:0 auto auto;
+	position:relative;
+}
+
+
+
+
+
+
+
+/* ========= CAROUSEL INDICATORS ========= */
+.carousel-indicators {
+	position: absolute;
+	bottom: 300px;
+}
+
+
+
+
+
+/* ========= Content ========= */
+
+.content-overlay {
+	margin-top: -270px;
+}
+.content-fpo {
+	display: block;
+	margin: auto;
+	padding-bottom: 80px;
+}
