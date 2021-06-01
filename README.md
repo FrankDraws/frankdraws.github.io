@@ -1,3 +1,2 @@
 # frankdraws.github.io
-Frank's Home Page
-Updated on March 22, 2021
+My home page is currently under construction (Tue 6/1).
