@@ -312,11 +312,12 @@ strong {
   / / / / ANIMATIONS  
 */
 
-@media only screen and (max-width: 295px) {
+
+/* @media only screen and (max-width: 295px) {
   .container {
     animation: disappear 3.3s normal forwards;
   }
-}
+} */
 
 @keyframes fadein {
   from {
