@@ -97,7 +97,7 @@
 
 
 /*
-  / / / / GLOBAL  
+  / / / / GLOBAL  (Previous CSS)
 */
 
 body,
@@ -108,9 +108,6 @@ html {
   padding: 0;
   background-color: gainsboro;
   color: #4c5c68;
-  /* background: url(folio/images/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg), radial-gradient(circle at center center, rgb(252, 252, 252), rgb(129, 129, 129)), no-repeat center center fixed;
-  background-size: auto;
-  background-blend-mode: screen; */
 }
 
 
@@ -156,7 +153,6 @@ li {
 
 p,
 article {
-  /* padding: 0 1em 0; */
   margin: 0 0 1.4em;
 }
 
@@ -307,6 +303,36 @@ strong {
   transform: rotatey(-5deg) rotatex(15deg) scale(1.25);
 }
 
+.back {
+  display: grid;
+  margin-top: 1.5em;
+}
+
+.myButton {
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #4c5c68;
+  cursor: pointer;
+  color: #4c5c68;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.3em 1.3em;
+  text-decoration: none;
+  justify-self: right;
+  transition: all 0.3s ease-in-out;
+}
+
+.myButton:hover {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  color: #4c5c68;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.myButton:active {
+  top: 1px;
+}
+
 
 /*
   / / / / ANIMATIONS  
@@ -319,7 +345,8 @@ strong {
   }
 } */
 
-@keyframes fadein {
+
+/* @keyframes fadein {
   from {
     opacity: 0;
   }
@@ -344,7 +371,7 @@ strong {
   to {
     opacity: 0;
   }
-}
+} */
 
 @-webkit-keyframes color-change-2x {
   0% {

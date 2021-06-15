@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FJQ - Design</title>
+
+    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="folio-styles.css" />
+    <link rel="stylesheet" href="cssbox.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="colortop"></div>
+        <div class="name">
+            <h1>Design Exploration</h1>
+            <div class="back"><a href="../../index.html" class="myButton">Back</a></div>
+        </div>
+
+        <div class="content01">
+            <p>Our design director was interested in exploring design, color theory, and compositions. She asked me to do some exploration and this was the result. </p>
+
+
+        </div>
+
+        <div class="content02">
+
+            <div class="cssbox">
+                <a id="image1" href="#image1"><img class="cssbox_thumb" src="images/design01.jpg" />
+                    <span class="cssbox_full"><img src="images/design01.jpg" /></span>
+                </a>
+                <a class="cssbox_close" href="#void"></a>
+                <!-- <a class="cssbox_prev" href="#image1">&lt;</a> -->
+                <a class="cssbox_next" href="#image2">&gt;</a>
+            </div>
+
+            <div class="cssbox">
+                <a id="image2" href="#image2"><img class="cssbox_thumb" src="images/design02.png" />
+                    <span class="cssbox_full"><img src="images/design02.png" /></span>
+                </a>
+                <a class="cssbox_close" href="#void"></a>
+                <a class="cssbox_prev" href="#image1">&lt;</a>
+                <!-- <a class="cssbox_next" href="#image2">&gt;</a> -->
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2020-2021 Frank Juval Quinones. All rights reserved.</p>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            $('.buzz').each(function() {
+                $(this).attr('data-buzz', $(this).text());
+            });
+        });
+    </script>
+</body>
+
+</html>
