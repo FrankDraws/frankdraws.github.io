@@ -54,6 +54,7 @@ Thumbs.d
 ###############
 /Assets
 /Work
+/work
 !/archive
 
 # Ignore files in this dir except ! - FJQ #
