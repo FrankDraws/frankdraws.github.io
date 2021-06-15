@@ -54,13 +54,16 @@ Thumbs.d
 ###############
 /Assets
 /Work
-!/archive
+/work
+/archive
+/favicon_package_v0.16
 
 # Ignore files in this dir except ! - FJQ #
 ###############
 .gitignore
+
 # !directoryName/
 ~/.zprofile
 .vscode/*
-/archive
-/favicon_package_v0.16
+index2.html
+indexbak.html
