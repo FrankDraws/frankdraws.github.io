@@ -217,12 +217,12 @@ footer p {
 */
 
 @media only screen and (min-width: 667px) {
-  h1 {
+  /* h1 {
     font-size: 2.5em;
     animation: fadein 1.7s;
     line-height: 1;
     margin: 0 0 0.7em 0.4em;
-  }
+  } */
   ul {
     margin-bottom: 0.3em;
   }
