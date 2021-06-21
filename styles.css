@@ -17,7 +17,6 @@ html {
   margin: 0;
   padding: 0;
   background-color: gainsboro;
-  color: #4c5c68;
 }
 
 #colorbar {
@@ -31,6 +30,7 @@ html {
 }
 
 .container {
+  color: #495057;
   font: 1em/1.5 "Playfair Display", sans-serif;
   display: grid;
   grid-column-gap: 1em;
@@ -67,7 +67,8 @@ hr {
 }
 
 h1 {
-  color: #5a189a;
+  /* color: #5a189a; */
+  color: #7400b8;
   animation: fadeback 1.7s;
   margin: 0;
 }
@@ -115,6 +116,20 @@ footer p {
 /* 
   / / / / LINK STYLES  
 */
+
+a,
+ :visited {
+  text-decoration: none;
+  color: #0091ad;
+  border-bottom: 1px solid #0091ad;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #a01a58;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+}
 
 
 /*
