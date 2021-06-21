@@ -143,8 +143,9 @@ footer p {
   ul {
     text-align: right;
   }
-  li:last-child {
-    padding-right: 0;
+  li {
+    display: block;
+    padding: 0 0 .4em 0;
   }
 }
 
