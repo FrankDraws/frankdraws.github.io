@@ -63,3 +63,5 @@ Thumbs.d
 # !directoryName/
 ~/.zprofile
 .vscode/*
+/archive
+/favicon_package_v0.16
