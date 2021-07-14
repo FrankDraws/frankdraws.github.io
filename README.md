@@ -1,5 +1,5 @@
 # FrankJuval.com
-Welcome to my website. It's currently under construction as of May 2021.
+Welcome to my digital garden, which is currently being cultivated.
 
 You can view the live site at [FrankJuval.com](https://www.frankjuval.com).
 
