@@ -142,16 +142,13 @@
     </div>
 
     <footer>
-        <p>Copyright &copy; 2020-2021 Frank Juval Quinones. All rights reserved.</p>
+        <p>Copyright &copy;
+            <script type="text/javascript">
+                document.write("2020 - " + new Date().getFullYear());
+            </script> Frank Juval Quinones. All rights reserved.</p>
     </footer>
 
-    <script>
-        $(document).ready(function() {
-            $('.buzz').each(function() {
-                $(this).attr('data-buzz', $(this).text());
-            });
-        });
-    </script>
+
 </body>
 
 </html>
