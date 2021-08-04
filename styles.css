@@ -30,6 +30,11 @@
   grid-area: 2 / 1 / 3 / 2;
 }
 
+blockquote {
+  padding-left: 1em;
+  border-left: 9px solid #ccc;
+}
+
 .content01 {
   grid-area: 2 / 2 / 3 / 3;
   padding: 0 1em 0;
