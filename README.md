@@ -1,7 +1,7 @@
 # FrankJuval.com
-Welcome to my digital garden, which is currently being cultivated.
+Welcome to my website! This isn't just a plain ol' website. It's my sandbox. A place for me to tinker and explore.
 
-You can view the live site at [FrankJuval.com](https://www.frankjuval.com).
+You can view the live version at [FrankJuval.com](https://www.frankjuval.com).
 
 ## Description
 This site is to simply showcase some of the work I've done over the past several years. Currently, all the work displayed is from my time at Universal Parks & Resorts. Eventually I will add other projects.
