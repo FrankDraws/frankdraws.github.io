@@ -172,11 +172,13 @@ h1 {
 
 #herocopy {
   font-family: "Bree Serif", serif;
-  --fluid-type-min: 1.8rem;
-  --fluid-type-max: 3rem;
+  --fluid-type-min: 2.7rem;
+  --fluid-type-max: 3.3rem;
   --fluid-type-target: 5vw;
   text-align: center;
-  text-shadow: 0 7px 10px rgba(0, 0, 0, 0.35);
+  text-shadow: 0 7px 10px rgba(0, 0, 0, 0.55);
+  /* max-width: 60ch; */
+  padding: 0.8em;
 }
 
 h2 {
