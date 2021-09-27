@@ -151,31 +151,31 @@ li {
 
 h1 {
   font-family: "Bree Serif", serif;
-  --fluid-type-min: 1.5rem;
-  --fluid-type-max: 2.5rem;
+  --fluid-type-min: 1.3rem;
+  --fluid-type-max: 2rem;
   --fluid-type-target: 5vw;
   /*   max-width: 30ch; */
 }
 
 #herocopy {
   font-family: "Bree Serif", serif;
-  --fluid-type-min: 3.5rem;
-  --fluid-type-max: 5rem;
+  --fluid-type-min: 1.2rem;
+  --fluid-type-max: 2rem;
   --fluid-type-target: 5vw;
-  /*   max-width: 30ch; */
   text-align: center;
+  text-shadow: 0 7px 10px rgba(0, 0, 0, 0.35);
 }
 
 h2 {
   font-family: "Bree Serif", serif;
-  --fluid-type-min: 1.8rem;
-  --fluid-type-max: 3rem;
+  --fluid-type-min: 1rem;
+  --fluid-type-max: 1.8rem;
 }
 
 h3 {
   font-family: "Bree Serif", serif;
-  --fluid-type-min: 0.8rem;
-  --fluid-type-max: 1.5rem;
+  --fluid-type-min: 0.6rem;
+  --fluid-type-max: 1rem;
 }
 
 h2,
