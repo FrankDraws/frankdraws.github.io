@@ -189,3 +189,8 @@ li {
   font-family: "Lora", serif;
   line-height: 1.8;
 }
+
+li {
+  max-width: 50ch;
+  padding-bottom: 1em;
+}
