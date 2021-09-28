@@ -32,11 +32,13 @@ body {
   width: 100%;
   z-index: 0;
   overflow: hidden;
-  background: transparent url(https://i.ibb.co/mcXG9WW/kunal-shinde-f0-YLss50-Bs-unsplash.jpg) no-repeat top center;
+  background: transparent url(https://i.ibb.co/3cF6HLV/planetmitch-aunger-d-OZm-KYS5-CDw-unsplash2.jpg) no-repeat top center;
   background-size: cover;
   display: grid;
   place-items: center;
-  /* https://i.ibb.co/3cF6HLV/planetmitch-aunger-d-OZm-KYS5-CDw-unsplash2.jpg */
+  /* 
+https://i.ibb.co/mcXG9WW/kunal-shinde-f0-YLss50-Bs-unsplash.jpg
+  */
 }
 
 #herocopy {
