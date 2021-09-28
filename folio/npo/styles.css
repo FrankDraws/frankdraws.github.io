@@ -36,6 +36,7 @@ body {
   background-size: cover;
   display: grid;
   place-items: center;
+  /* https://i.ibb.co/3cF6HLV/planetmitch-aunger-d-OZm-KYS5-CDw-unsplash2.jpg */
 }
 
 #herocopy {
@@ -193,10 +194,11 @@ h3 {
   --fluid-type-max: 1rem;
 }
 
-h2,
+
+/* h2,
 h3 {
-  /*   max-width: 30ch; */
-}
+    max-width: 30ch;
+} */
 
 p,
 li {
