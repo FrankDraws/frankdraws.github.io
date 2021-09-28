@@ -1,11 +1,13 @@
 /* 
-  I accomplished my goal, but I wonder if there's a better way to do this? 
-  ~
-  Template: Practice UI 01a
-  colors: https://coolors.co/palettes/trending
+I accomplished my goal, but I wonder if there's a better way to do this? 
+~
+Template: Practice UI 01a
+colors: https://coolors.co/palettes/trending
 
 */
 
+@import url('boska.css');
+@import url('zodiak.css');
 body,
 html {
   margin: 0;
@@ -32,17 +34,20 @@ body {
   width: 100%;
   z-index: 0;
   overflow: hidden;
-  background: transparent url(https://i.ibb.co/3cF6HLV/planetmitch-aunger-d-OZm-KYS5-CDw-unsplash2.jpg) no-repeat top center;
+  background: transparent url(https://i.ibb.co/mcXG9WW/kunal-shinde-f0-YLss50-Bs-unsplash.jpg) no-repeat top center;
   background-size: cover;
   display: grid;
   place-items: center;
   /* 
-https://i.ibb.co/mcXG9WW/kunal-shinde-f0-YLss50-Bs-unsplash.jpg
-  */
+  
+  https://i.ibb.co/3cF6HLV/planetmitch-aunger-d-OZm-KYS5-CDw-unsplash2.jpg
+  https://i.ibb.co/DtLP8z3/morning.jpg
+*/
 }
 
 #herocopy {
   color: white;
+  font-family: 'Zodiak-Black';
 }
 
 #main {
@@ -166,7 +171,7 @@ li {
 }
 
 h1 {
-  font-family: "Bree Serif", serif;
+  font-family: "Zodiak-Black", serif;
   --fluid-type-min: 1.3rem;
   --fluid-type-max: 2rem;
   --fluid-type-target: 5vw;
@@ -174,38 +179,38 @@ h1 {
 }
 
 #herocopy {
-  font-family: "Bree Serif", serif;
-  --fluid-type-min: 2.7rem;
-  --fluid-type-max: 3.3rem;
+  font-family: 'Zodiak-Black', serif;
+  --fluid-type-min: 2.3rem;
+  --fluid-type-max: 3rem;
   --fluid-type-target: 5vw;
   text-align: center;
-  text-shadow: 0 7px 10px rgba(0, 0, 0, 0.55);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
   /* max-width: 60ch; */
-  padding: 0.8em;
+  /* padding: 0.8em; */
+  color: #fdfdfd;
 }
 
 h2 {
-  font-family: "Bree Serif", serif;
+  font-family: 'Zodiak-Black', serif;
   --fluid-type-min: 1rem;
   --fluid-type-max: 1.8rem;
 }
 
 h3 {
-  font-family: "Bree Serif", serif;
+  font-family: 'Zodiak-Black', serif;
   --fluid-type-min: 0.6rem;
   --fluid-type-max: 1rem;
 }
 
-
-/* h2,
+h2,
 h3 {
-    max-width: 30ch;
-} */
+  /* max-width: 30ch; */
+}
 
 p,
 li {
   /*   max-width: 60ch; */
-  font-family: "Lora", serif;
+  font-family: "Georgia", serif;
   line-height: 1.8;
 }
 
