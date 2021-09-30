@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Maragsa-Display';
+  src: url('Maragsa/Maragsa-Display.woff2') format('woff2'), url('Maragsa/Maragsa-Display.woff') format('woff'), url('Maragsa/Maragsâ-Display.otf') format('otf');
+  font-weight: 200 900;
+  font-display: swap;
+  font-style: normal;
+}
