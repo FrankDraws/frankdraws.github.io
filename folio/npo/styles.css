@@ -8,6 +8,7 @@ colors: https://coolors.co/palettes/trending
 
 @import url('boska.css');
 @import url('zodiak.css');
+@import url('marasga.css');
 body,
 html {
   margin: 0;
@@ -43,11 +44,6 @@ body {
   https://i.ibb.co/3cF6HLV/planetmitch-aunger-d-OZm-KYS5-CDw-unsplash2.jpg
   https://i.ibb.co/DtLP8z3/morning.jpg
 */
-}
-
-#herocopy {
-  color: white;
-  font-family: 'Zodiak-Black';
 }
 
 #main {
@@ -185,9 +181,9 @@ h1 {
   --fluid-type-target: 5vw;
   text-align: center;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  color: #fdfdfd;
   /* max-width: 60ch; */
   /* padding: 0.8em; */
-  color: #fdfdfd;
 }
 
 h2 {
