@@ -38,20 +38,15 @@ body {
   background: transparent url(kunal-shinde--f0YLss50Bs-unsplash.jpg) no-repeat top center;
   background-size: cover;
   display: grid;
-  place-items: center;
-  /* 
-  
-  https://i.ibb.co/3cF6HLV/planetmitch-aunger-d-OZm-KYS5-CDw-unsplash2.jpg
-  https://i.ibb.co/DtLP8z3/morning.jpg
-*/
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* place-items: center; */
 }
 
 #credit {
   color: #7e7e7e;
   font-size: xx-small;
-  position: fixed;
-  top: 1em;
-  left: 2em;
+  padding: 1.5em;
 }
 
 #credit a,
