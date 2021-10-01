@@ -44,16 +44,16 @@ body {
 }
 
 #credit {
-  color: #7e7e7e;
+  color: #85A921;
   font-size: xx-small;
   padding: 1.5em;
 }
 
 #credit a,
 a:visited {
-  color: #7e7e7e;
+  color: #85A921;
   text-decoration: none;
-  border-bottom: 1px solid #7e7e7e;
+  border-bottom: 1px solid #85A921;
 }
 
 #main {
@@ -208,10 +208,11 @@ h3 {
   --fluid-type-max: 1rem;
 }
 
-h2,
+
+/* h2,
 h3 {
-  /* max-width: 30ch; */
-}
+  max-width: 30ch;
+} */
 
 p,
 li {
