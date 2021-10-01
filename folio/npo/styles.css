@@ -46,6 +46,21 @@ body {
 */
 }
 
+#credit {
+  color: #7e7e7e;
+  font-size: xx-small;
+  position: fixed;
+  top: 1em;
+  left: 2em;
+}
+
+#credit a,
+a:visited {
+  color: #7e7e7e;
+  text-decoration: none;
+  border-bottom: 1px solid #7e7e7e;
+}
+
 #main {
   display: grid;
   grid-template-columns: 1fr;
@@ -130,7 +145,7 @@ btn:hover {
 a,
  :visited {
   color: #48bfe3;
-  font-family: "Helvetica", sans-serif;
+  /* font-family: "Helvetica", sans-serif; */
   text-decoration: none;
   transition: all 0.1s ease-in-out;
 }
