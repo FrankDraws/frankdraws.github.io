@@ -88,13 +88,13 @@ img {
 
 @media only screen and (min-width: 768px) {
   .card {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 150px 1fr;
     place-items: center;
     padding: 1rem 2em;
   }
   .card p {
     text-align: left;
-    align-self: stretch;
+    /* align-self: stretch; */
     /*     outline: 1px solid red; */
   }
 }
