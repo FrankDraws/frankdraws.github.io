@@ -8,7 +8,7 @@
 body,
 html {
   margin: 0;
-  padding: 0;
+  padding: 1em;
   width: 100%;
   box-sizing: border-box;
 }
@@ -49,30 +49,29 @@ hr {
   align-items: start;
   grid-gap: 10px;
   padding: 0 1em;
-  max-width: 1024px;
+  max-width: 768px;
   /* outline: 1px solid green; */
 }
 
-.card {
-  /* background-image: linear-gradient( 90deg, rgb(116, 216, 252), rgb(156, 153, 254)); */
-  /* box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.35);
+
+/* .card {
+  background-image: linear-gradient( 90deg, rgb(116, 216, 252), rgb(156, 153, 254));
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.35);
   margin-top: -130px;
   border-radius: 1em;
-  border: 1px solid #a7a7a7; */
+  border: 1px solid #a7a7a7;
   z-index: 10;
-}
+} */
 
 .s2 {
   color: #777;
-  height: auto;
   /*   outline: 1px solid orange; */
 }
 
 .card,
 .s2 {
-  padding: 1rem 2em;
   justify-self: stretch;
-  /*     outline: 1px solid red; */
+  /* outline: 1px solid red; */
 }
 
 #legal {
@@ -96,11 +95,12 @@ p {
 }
 
 h1 {
-  font-family: "Bree Serif", serif;
+  font-family: 'Lora', serif;
+  font-style: italic;
   --fluid-type-min: 1.5rem;
   --fluid-type-max: 2.5rem;
   --fluid-type-target: 5vw;
-  max-width: 30ch;
+  /* max-width: 30ch; */
 }
 
 h2 {
@@ -119,7 +119,7 @@ h3 {
 }
 
 p {
-  max-width: 60ch;
+  /* max-width: 60ch; */
   font-family: "Lora", serif;
   line-height: 1.8;
 }
