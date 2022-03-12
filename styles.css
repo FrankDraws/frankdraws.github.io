@@ -27,10 +27,6 @@ body {
   color: #fee440;
 }
 
-.title {
-  /* font-family: "Playfair Display"; */
-}
-
 hr {
   border: 0;
   height: 1px;
@@ -48,6 +44,10 @@ hr {
   padding: 0 1em;
   max-width: 900px;
   /* outline: 1px solid green; */
+}
+
+.title {
+  width: 100%;
 }
 
 .content {
@@ -82,11 +82,9 @@ h1 {
   font-style: italic;
   --fluid-type-min: 2rem;
   --fluid-type-max: 7rem;
-  --fluid-type-target: 5vw;
+  --fluid-type-target: 8vw;
   line-height: 1;
   padding: 0.5em;
-  /* max-width: 4ch; */
-  /* outline: 1px solid red; */
 }
 
 p {
