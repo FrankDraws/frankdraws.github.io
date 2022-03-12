@@ -17,7 +17,8 @@ html {
 }
 
 body {
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  background-color: #111;
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
