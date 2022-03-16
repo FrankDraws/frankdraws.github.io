@@ -63,6 +63,65 @@ hr {
 }
 
 
+/* a,
+ :visited {
+  font-family: "Lora", serif;
+  text-decoration: none;
+  border-bottom: 2px solid gray;
+} */
+
+a {
+  /* RESET */
+  font-family: "Lora", serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 5px 5px;
+  overflow: hidden;
+  color: #333;
+  vertical-align: bottom;
+  transition: color .3s ease-out;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: translateY(calc(100% - 2px));
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(60deg, #64b3f4 0%, #8510a8 100%);
+  transition: transform .25s ease-out;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:hover::before {
+  transform: translateY(0);
+  transition: transform .25s ease-out;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+  margin: -1em 0 1em 0;
+}
+
+li {
+  margin: 0.5em 0 0;
+  display: inline-block;
+  padding: 0 0 0 1em;
+  font-family: "Lora", serif;
+}
+
+
 /* 
   Font Clamp  
   https://piccalil.li/tutorial/fluid-typography-with-css-clamp/
@@ -79,7 +138,7 @@ h1 {
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Rozha One', serif;
   font-style: italic;
   --fluid-type-min: 2rem;
   --fluid-type-max: 7rem;
