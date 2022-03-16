@@ -115,8 +115,8 @@ ul {
 }
 
 li {
-  margin: 0.5em 0 0;
-  display: inline-block;
+  margin: 0 0 1.5em;
+  display: block;
   padding: 0 0 0 1em;
   font-family: "Lora", serif;
 }
@@ -151,13 +151,6 @@ h1 {
 p {
   font-family: "Lora", serif;
   line-height: 1.8;
-}
-
-@media only screen and (max-width: 500px) {
-  li {
-    display: block;
-    margin-bottom: 1.5em;
-  }
 }
 
 
