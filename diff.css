@@ -68,9 +68,13 @@ hr {
   justify-self: stretch;
 }
 
-#legal {
-  color: gray;
-  font-size: small;
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 
