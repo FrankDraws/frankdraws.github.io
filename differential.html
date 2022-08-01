@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Differential</title>
+
+    <link rel="stylesheet" href="diff.css">
+
+
+    <!-- <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/css-doodle@0.19.2/css-doodle.min.js"></script>
+</head>
+
+<body>
+    <section id="top">
+        <css-doodle click-to-update>
+            <!-- https://css-doodle.com/ -->
+            <style>
+                 :doodle {
+                    @grid: 33 / 100vmax;
+                    background: #dee2e6;
+                }
+                
+                --hue: calc(180 + 1.5 * @row * @col);
+                background: hsl(var(--hue), 70%, 80%);
+                margin: -.5px;
+                transition: @r(.5s) ease;
+                clip-path: polygon(@pick('0 0, 100% 0, 100% 100%', '0 0, 100% 0, 0 100%', '0 0, 100% 100%, 0 100%', '100% 0, 100% 100%, 0 100%'));
+            </style>
+        </css-doodle>
+
+    </section>
+
+    <section id="content">
+
+        <section class="card">
+            <h4>Position Application</h4>
+            <h1>Product Designer</h1>
+            <!-- Having a little fun here -->
+
+        </section>
+
+        <h3>Tell us about yourself</h3>
+        <div>
+            <p>I originally started as a traditional animation major and wanted to be a Disney animator. I had my foot in the door at Disney but then the entire team was let go because computer animation was taking over.</p>
+            <p>I had taken some graphic design courses and really loved it so I switch my major and went on to work for companies like Tupperware, Marriott, and Universal.</p>
+            <p>I began as a print designer but taught myself how to code. My employers noticed this so they gave me jobs. That's how I built up my front end skills. From print design, illustration, animation, to web design/development, and eventually UX/UI.
+                My versatility and willingness to learn has always been beneficial for my employers.</p>
+        </div>
+        <h3>Links</h3>
+        <div>
+            <ul>
+                <li><a href="https://www.frankjuval.com" target="_blank">https://www.frankjuval.com</a></li>
+                <li><a href="https://www.behance.net/frankdraws" target="_blank">https://www.behance.net/frankdraws</a></li>
+                <li><a href="https://www.instagram.com/frankjuval/" target="_blank">https://www.instagram.com/frankjuval/</a></li>
+                <li><a href="https://codepen.io/frankDraws/" target="_blank">https://codepen.io/frankDraws/</a></li>
+            </ul>
+        </div>
+
+        <h3>Tell us about your experience with web apps.</h3>
+        <div>
+            <p>I first learned HTML and was given projects by my employers. Then I added CSS and eventually JS to my skillset. I made the move from web design to front end dev. I was part of the team that built Universal Orlando's first mobile app and went
+                on to improve the user experience later on. I also partnered with others within Universal to build and launch successful applications that went on to be used at Universal Studios Hollywood, Volcano Bay water park, and NBC in New York.
+            </p>
+        </div>
+        <h3>What design tools do you use on a daily basis?</h3>
+        <div>
+            <p>I began with the first Adobe Photoshop and Illustrator in the 90s. Eventually I grew with Adobe as they built up their suite and eventually into Creative Cloud.</p>
+            <p>I've also used and tested a number of apps including Sketch, Figma, InDesign, Github, Office, VSCode, and more.</p>
+        </div>
+        <h3>Why do you want to work at Differential?</h3>
+        <div>
+            <p>I really like the idea of working with so many brands, but what really got my attention were the core values. "We focus on getting the right stuff done, not the most stuff." That sentence really spoke to me. I've seen the quality of many products
+                suffer because of speed to market.</p>
+        </div>
+        <h3>What are your salary and compensation requirements?</h3>
+        <div>
+            <p>$110,000/yr</p>
+        </div>
+    </section>
+</body>
+
+</html>
