@@ -164,7 +164,7 @@ h1 {
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
-  background-position: bottom 10%;
+  background-position: bottom 50%;
 }
 
 ul {
