@@ -153,12 +153,18 @@ hr {
 }
 
 h1 {
-  color: #5a189a;
+  /* color: #5a189a; */
   font-size: 2.1em;
   font-weight: 900;
   animation: fadeback 1.7s;
   line-height: 1;
   margin: 0 0 0.7em 0.5em;
+  background-image: url(https://media.giphy.com/media/26vwcbtjY7cDjuYrqL/source.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-position: bottom 10%;
 }
 
 ul {
