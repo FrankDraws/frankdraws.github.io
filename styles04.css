@@ -160,7 +160,7 @@ h1 {
   line-height: 1;
   margin: 0 0 0.7em 0.5em;
   background-image: url(https://media.giphy.com/media/26vwcbtjY7cDjuYrqL/source.gif);
-  background-size: cover;
+  /* background-size: cover; */
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
