@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasons for the Gap in Employment</title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            display: grid;
+            place-items: center;
+        }
+        
+        section {
+            width: 70vw;
+        }
+        
+        h1 {
+            margin-bottom: 1em;
+        }
+        /* 
+  Font Clamp  
+  https://piccalil.li/tutorial/fluid-typography-with-css-clamp/
+*/
+        
+        h1,
+        h2,
+        h3,
+        p,
+        li {
+            font-size: clamp( var(--fluid-type-min, 1rem), calc(1rem + var(--fluid-type-target, 3vw)), var(--fluid-type-max, 1.3rem));
+        }
+        
+        h1 {
+            font-family: "Zodiak-Black", serif;
+            --fluid-type-min: 1.3rem;
+            --fluid-type-max: 2rem;
+            --fluid-type-target: 5vw;
+            /*   max-width: 30ch; */
+        }
+        
+        #herocopy {
+            font-family: 'Zodiak-Black', serif;
+            --fluid-type-min: 2.3rem;
+            --fluid-type-max: 3rem;
+            --fluid-type-target: 5vw;
+            text-align: center;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+            color: #fdfdfd;
+            /* max-width: 60ch; */
+            /* padding: 0.8em; */
+        }
+        
+        @media only screen and (max-width: 980px) {
+            #herocopy {
+                align-self: start;
+            }
+        }
+        
+        h2 {
+            font-family: 'Zodiak-Black', serif;
+            --fluid-type-min: 1rem;
+            --fluid-type-max: 1.8rem;
+        }
+        
+        h3 {
+            font-family: 'Zodiak-Black', serif;
+            --fluid-type-min: 0.6rem;
+            --fluid-type-max: 1rem;
+        }
+        /* h2,
+h3 {
+  max-width: 30ch;
+} */
+        
+        p,
+        li {
+            /*   max-width: 60ch; */
+            font-family: "Georgia", serif;
+            line-height: 1.8;
+        }
+        
+        li {
+            max-width: 50ch;
+            padding-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Reasons for the Gap in Employment</h1>
+        <p>First, I really needed a break from the rat race so I took a sabbatical from August 2020 to early 2021. I took on a number of creative endeavors such as woodworking (which I'd never done before), opened an Etsy shop, explored watercolors, signed
+            up to learn Cavalry which is a vector animation app, etc. I also spent time learning more about leadership; learned more about systems thinking, mathematics, did code challenges, and such. I fed both my creative and analytical sides.</p>
+        <p>A big part of my time was spent as a caretaker. The week before the lockdowns my wife, daughter, and I were rear ended at a red light and my wife suffered the worst of it. She just had her 3rd back surgery in November 2022. She's spent a lot of
+            time at home recovering. My mom lives with us, and she also had back surgery, so I cared for them both; as well as caring for our 3 children.</p>
+        <p>I became a hospice volunteer for a while as well.</p>
+        <p>I'm really interested in the nonprofit sector, so I spent a lot of time learning about how to run a nonprofit, the legal aspect, learned about fundraising, and more.</p>
+        <p>I have not stopped learning and working. I continue to add products to my Etsy shop. I've also jumped into ChatGPT to eccelerate my learning.</p>
+        <p>I appreciate you taking the time to read this.</p>
+        <p>Thank you.</p><br/><br/>
+        <p>Regards,</p>
+    </section>
+
+</body>
+
+</html>
