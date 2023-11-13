@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Featured Headline</title>
+    <style>
+        .parallax {
+            background-image: url('https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+            z-index: 0;
+        }
+        
+        .parallax-inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            z-index: 0;
+        }
+        
+        body {
+            background-color: gainsboro;
+        }
+        
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            margin: 0;
+            font-size: 1.5rem;
+            color: black;
+            z-index: 500;
+            display: block;
+        }
+        
+        h3 {
+            margin: 0;
+            padding: .5em 0;
+            line-height: 0;
+        }
+        
+        .card-container {
+            display: grid;
+            /* flex-wrap: wrap; */
+            /* justify-content: space-around; */
+            justify-items: center;
+            padding: 20px;
+        }
+        
+        .card {
+            background-color: #F7CAC9;
+            /* width: calc(33.33% - 20px); */
+            max-width: 80vw;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            padding: 1.5em 1em;
+            z-index: 50;
+        }
+        
+        .card:nth-child(2n) {
+            background-color: #92A8D1;
+        }
+        
+        .card:nth-child(3n) {
+            background-color: #C7CEEA;
+        }
+        
+        .card:nth-child(4n) {
+            background-color: #E5E8E8;
+        }
+        
+        .card:nth-child(5n) {
+            background-color: #F6BD60;
+        }
+        
+        .card:nth-child(6n) {
+            background-color: #F5CAC3;
+        }
+        
+        .card:nth-child(7n) {
+            background-color: #FFDAB9;
+        }
+        
+        .button {
+            display: inline-block;
+            /* padding: 12px 24px; */
+            padding: .5em 1em;
+            background-color: #007aff;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .button:hover {
+            background-color: #0053ba;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="parallax-inner">
+            <!-- <p>Scroll down to see more</p> -->
+        </div>
+    </div>
+    <h1>Featured Headline</h1>
+    <div class="card-container">
+        <div class="card">
+            <h3>Subheadline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae est nostrum delectus quas.</p>
+            <a href="http://www.apple.com" class="button">Learn More</a>
+        </div>
+        <div class="card">
+            <h3>Subheadline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae est nostrum delectus quas.</p>
+        </div>
+        <div class="card">
+            <h3>Subheadline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae est nostrum delectus quas.</p>
+        </div>
+        <div class="card">
+            <h3>Subheadline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae est nostrum delectus quas.</p>
+        </div>
+        <div class="card">
+            <h3>Subheadline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae est nostrum delectus quas.</p>
+        </div>
+        <div class="card">
+            <h3>Subheadline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae est nostrum delectus quas.</p>
+        </div>
+        <div class="card">
+            <h3>Subheadline</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae est nostrum delectus quas.</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for the parallax effect
+        window.addEventListener('scroll', function() {
+            const parallax = document.querySelector('.parallax');
+            let scrollPosition = window.pageYOffset;
+
+            parallax.style.transform = 'translateY(' + scrollPosition * 0.7 + 'px)';
+        });
+    </script>
+</body>
+
+</html>
