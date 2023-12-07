@@ -10,7 +10,8 @@
         body {
             font-family: Georgia, 'Times New Roman', Times, serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 1em;
             background-color: gainsboro;
             display: grid;
             justify-items: center;
@@ -32,22 +33,43 @@
 
         section {
             background-color: white;
-            width: 50%;
             height: auto;
-            padding: 2em;
-            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+            padding: 1.3em;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
             font-size: 1.3em;
             border-top: 7px solid #0f1633;
         }
 
         #seal {
-            width: 175px;
+            width: 230px;
         }
 
         #signature {
-            width: 275px;
+            width: 250px;
             z-index: 200;
-            margin: -2em 0;
+            margin: -1.7em 0 -3em 0;
+        }
+
+        @media screen and (min-width: 500px) {
+            body {
+                line-height: 1.6;
+            }
+
+            section {
+                width: 50%;
+                padding: 2em;
+                box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.3);
+                font-size: 1.6em;
+            }
+
+            #seal {
+                width: 175px;
+            }
+
+            #signature {
+                width: 295px;
+                margin-left: 0.3em;
+            }
         }
     </style>
 </head>
@@ -57,8 +79,8 @@
             <img src="prez/Seal_of_the_President_of_the_United_States.svg.png"
                 alt=""
                 id="seal">
-            <h3>Office of the President of the United States of America
-            </h3>
+            <h4>Office of the President of the United States of America
+            </h4>
         </header>
 
         <p id="currentDate"></p>
@@ -71,7 +93,10 @@
         <p>Henceforth, it has been decreed that Alisha M. Fredrickson is hereby
             granted the divine privilege of leaving work early. Yes, you read
             that correctly – an early departure! This edict is in accordance
-            with the new national initiative, Operation Get The F#k Out Of Work.
+            with the new national initiative, <em>
+                "Operation Get The F#k Out Of
+                Work."
+            </em>
         </p>
         <p>Now, let it be known that failure to comply with this presidential
             directive will be considered a treasonous act. In such an event,
